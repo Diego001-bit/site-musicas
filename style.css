@@ -1,0 +1,128 @@
+@charset "UTF-8";
+
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+::-webkit-scrollbar{
+    width: 0px;
+    width: 0px;
+}
+h1{
+    text-align: center;
+    font-size: 2em;
+    padding: 20px;
+}
+article{
+    margin: auto;
+    max-width: 1600px;
+    min-width: 300px;
+    background-color: rgba(1, 11, 153, 0.644);
+    padding: 10px;
+}
+#container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex: 1 1 50px;
+
+}
+.video{
+    width: 45%;
+    margin-bottom: 10px;
+}
+.video :hover{
+    padding-left: 8px;
+    transition-duration: 1.6s;
+    background-color: rgba(255, 0, 0, 0.377);
+}
+#imagens{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+img{
+    width: 300px;
+}
+.texto{
+    display: inline;
+    text-align: justify;
+}
+.fotos{
+    margin: auto;
+    padding: 100px;
+    width: 300px;
+    height: 300px;
+}
+article p{
+    font-size: 1.2em;
+    text-align: justify;
+    text-indent: 30px;
+    margin: 5px 0px;
+    line-height: 2em;
+}
+@media screen and (max-width:830px) {
+    ::-webkit-scrollbar{
+        width: 6px;
+        height: 10px;
+        background-color: rgba(0, 0, 255, 0.363);
+    }
+    ::-webkit-scrollbar-thumb{
+        width: 6px;
+        background-color: tomato;
+    }
+    h1, h2{
+        text-align: center;
+        font-size: 1.6em;
+        padding: 20px;
+    }
+    article{
+        margin: auto;
+        max-width: 1400px;
+        min-width: 300px;
+        background-color: rgba(3, 10, 100, 0.281);
+        padding-right: 20px;
+    }
+    article p{
+        font-size: 0.87em;
+        text-align: justify;
+        line-height: 1.6em;
+        margin: 10px 5px;
+    }
+    #container{
+        display: flex;
+        text-indent: 15px;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: 10px;
+    
+    }
+    .video{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .video :hover{
+        padding: 0px;
+    }
+    #imagens{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    img{
+        width: 300px;
+    }
+    .fotos{
+        margin: auto;
+        padding: 100px;
+        width: 300px;
+    }
+}
