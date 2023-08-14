@@ -1,14 +1,16 @@
-let enviar =document.getElementById('senha')
-senha.addEventListener('click' , clicar)
-function clicar(){
-    let fm = document.getElementById('formulario')
-    let senha = document.getElementById('isenha')
-    let esc = document.getElementById('informacoes')
-    senha = Number(senha.value)
-    if(senha == 23232323){
-        fm.action = 'flex.box.html'
-    }else{
-        alert(`senha ${senha} esta errada`)
-    }
 
-}
+let fundo = document.getElementById('ifundo')
+fundo.addEventListener('mousemove',function(){
+    console.log(fundo.value)
+    let valor =fundo.value;
+
+    if(valor == 1){
+
+    }else if(valor == 2){
+
+    }else if(valor == 3){
+        
+    }
+})
+        
+//https://youtu.be/LNkjivRSyd4
