@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css">
     <title>FlexBox</title>
 </head>
-<body>
+<body id="corpo" >
     <!--
     <div class="quadro">
         <div class="item">1</div>
@@ -26,7 +26,9 @@
     <article>
         <h1>PLAYLIST PHONK</h1>
         <p id="mostre">
-            <input type="range" name="fundo" id="ifundo" min="0" max="3" value="0">
+            <input type="range" name="fundo" id="ifundo" min="0" max="3" value="0" oninput="numero()">
+            <label for="vamos">numero da imagem:</label>
+            <output id="vamos">0</output>
         </p>
         <section id="container">
             <div class="video"><iframe width="97%" height="315" src="https://www.youtube.com/embed/LbJQnT0rbCI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>

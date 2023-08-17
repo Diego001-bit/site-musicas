@@ -6,8 +6,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 body{
-    background-image: url('');
-    background-color: rgb(2, 29, 80);
+
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -90,7 +89,6 @@ article p{
         margin: auto;
         max-width: 1400px;
         min-width: 300px;
-        background-color: rgba(3, 10, 100, 0.281);
         padding-right: 20px;
     }
     article p{
