@@ -28,7 +28,7 @@
 <body>
     <h1>Preencha o formulario</h1>
     <div id="informacoes">
-        <form action="" autocomplete="on" method="get" id="formulario">
+        <form action="flex.box.html" autocomplete="on" method="get" id="formulario">
             <p>
                 <label for="iname">Nome:</label><br>
                 <input type="text" name="nome" id="iname" placeholder="Nome Completo" required size="30">
@@ -39,8 +39,8 @@
                 <input type="radio" name="sexo" id="idfem"><label for="idfem">Feminino</label>
             </p>
             <p>
-                <label for="idadade">Ano de nascensa:</label>
-                <input type="number" name="ida" id="idade" max="1900" max="2020" required oninput="iida()">
+                <label for="iano">Ano de nascensa:</label> 
+                <input type="number" name="ida" id="iano" oninput="iida()" min="1900" max="2023" required>
             </p>
             <p>
                 <output id="resultado">0</output>
@@ -80,6 +80,14 @@ function clicar(){
     }
 
 }
+function iida(){
+        let iano = document.getElementById('iano')
+        let atual = new Date().getFullYear()
+        let anos = Number(iano.value) 
+        let resultado = document.getElementById('resultado')
+        let ano = Number(atual) - anos
+        resultado.innerHTML = `${ano}`
+    }
     </script>
 </body>
 </html>

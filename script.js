@@ -10,8 +10,6 @@ fundo.addEventListener('mousemove',function(){
         corpo.style.backgroundImage ="url(imagens/mar.jpg)"
     }else if(valor == 3){
         corpo.style.backgroundImage="url(imagens/vegetação.jpg)"
-    }else if (valor == 0){
-        corpo.style.backgroundColor="rgb(2, 29, 80)"
     }
 })
 
