@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+
+#quadro{
+    background-color: rgba(0, 0, 255, 0.171);
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+.item{
+    background-color: rgba(255, 255, 0, 0.452);
+    margin: 10px;
+    width: 700px;
+    height: 400px;
+}
