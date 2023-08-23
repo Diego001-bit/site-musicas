@@ -46,9 +46,9 @@
                 <output id="resultado">0</output>
             <p>
                 Qual seu tipo de musica? <br>
-                <input type="radio" name="musicas" id="idfor"><label for="idfor">forro</label><br>
-                <input type="radio" name="musicas" id="idphonk"><label for="idphonk">phonk </label><br>
-                <input type="radio" name="musicas" id="idrock"><label for="idrock">Rock</label>
+                <input type="radio" name="musicas" id="idfor" value="musica1"><label for="idfor">forro</label><br>
+                <input type="radio" name="musicas" id="idphonk" value="musica2"><label for="idphonk">phonk </label><br>
+                <input type="radio" name="musicas" id="idrock" value="musica3"><label for="idrock">Rock</label>
             </p>
             <p>
                 <label for="igmail">Gmail:</label><br>
@@ -64,21 +64,8 @@
             </p>
         </form>
     </div>
-    <script>
-        let enviar =document.getElementById('senha')
-        senha.addEventListener('click',clicar)
-function clicar(){
-    let fm = document.getElementById('formulario')
-    let senha = document.getElementById('isenha')
-    let esc = document.getElementById('informacoes')
-    senha = Number(senha.value)
-    if(senha == 23232323){
-        fm.action = 'flex.box.html'
-    }else{
-        alert(`senha ${senha} esta errada`)
-    }
-
-}
+    <script src="genero.js"></script>
+    <script >
 function iida(){
         let iano = document.getElementById('iano')
         let atual = new Date().getFullYear()
