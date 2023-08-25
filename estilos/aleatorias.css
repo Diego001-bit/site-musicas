@@ -14,22 +14,59 @@ article{
     margin: auto;
     max-width: 1000px;
     min-width: 300px;
-    background-color: rgb(160, 2, 2);
+    background-color: rgba(160, 2, 2, 0.253);
+}
+body{
+    background-image: url('../imagens/172ed78f98159dda8904987f4d47b347.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+
 }
 
 #container{
     display: flex;
     flex-wrap: wrap;
-
+    align-items: center;
+    justify-content: center;
 }
 .itens{
     margin: 20px;
+
     background-color: blue;
-    width: 450px;
+    width: 430px;
     height: 250px;
 }
-@media (max-width: 1000px) {
-    body{
-        background-color: black;
+@media (max-width: 1010px) {
+    #container{
+        margin: auto;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: row;
+        
     }
+
+    .itens{
+        background-color: blue;
+        width: 40vw;
+        height: 180px;
+        
+    }
+@media (max-width:710px) {
+    #container{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        
+    }
+
+    .itens{
+        margin-top: 10px;
+        background-color: blue;
+        width: 280px;
+        height: 150px;
+        
+    }
+}
 }
