@@ -8,19 +8,23 @@
 
 h1{
     text-align: center;
+    font-size: 2em;
+    margin: 10px;
 }
 
 article{
     margin: auto;
     max-width: 1000px;
     min-width: 300px;
+    height: 100v;
     background-color: rgba(160, 2, 2, 0.253);
 }
 body{
-    background-image: url('../imagens/172ed78f98159dda8904987f4d47b347.jpg');
+    background-image: url('../imagens/mar.jpg');
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: center bottom;
     background-size: cover;
+
 
 }
 
@@ -38,8 +42,14 @@ body{
     height: 250px;
 }
 @media (max-width: 1010px) {
+    body{
+        background-image: url('../imagens/mar.jpg');
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+
+    }
     #container{
-        margin: auto;
         display: flex;
         align-items: center;
         flex-wrap: wrap;
@@ -50,7 +60,7 @@ body{
     .itens{
         background-color: blue;
         width: 40vw;
-        height: 180px;
+        height: 160px;
         
     }
 @media (max-width:710px) {

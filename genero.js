@@ -3,15 +3,21 @@ senha.addEventListener('click',clicar)
 function clicar(){
 let fm = document.getElementById('formulario')
 let senha = document.getElementById('isenha')
-let musicas = document.getElementsByName("musica")
-let mus = musicas.value
+let musica = document.getElementsByName("musicas")
+let MusicaEscolhida= musica.value
 senha = Number(senha.value)
 if(senha == 23232323){
-        if(mus = 'musica1'){
-            fm.action= 'forro.html'
-        }else if(mus = 'musica2'){
-            fm.action ='phonk.html'
+    for(var i=0;i<musica.length;i++){
+        if(musica[i].checked){
+            if(musica[i].value == 1){
+                fm.action="forro.html"
+            }else if (musica[i].value == 2){
+                fm.action="phonk.html"
+            }else{
+                fm.action="aleatorias.html"
+            }
         }
+    }
 }else{
 alert(`senha ${senha} esta errada`)
 }
