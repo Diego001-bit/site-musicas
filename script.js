@@ -3,7 +3,7 @@ let fundo = document.getElementById('ifundo')
 fundo.addEventListener('mousemove',function(){
     console.log(fundo.value)
     let valor =Number(fundo.value);
-
+    let corpo = document.getElementById('corpo')
     if(valor == 1){
         corpo.style.backgroundImage = "url(imagens/paisagem-montanha.jpg)"
     }else if(valor == 2){

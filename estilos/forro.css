@@ -10,7 +10,8 @@ h1{
 }
 article{
     padding: 10px;
-    max-width: 1920px;
+    max-width: 1000px;
+    min-width: 300px;
     margin: auto;
 }
 
@@ -29,8 +30,8 @@ article{
 .item{
     background-color: rgba(255, 255, 0, 0.452);
     margin: 10px;
-    width: 40vw;
-    height: 20vw;
+    width: 45%;
+    height: 30vh;
 }
 .item:hover{
     box-shadow: 2px 3px 10px rgb(71, 1, 50);
@@ -51,17 +52,16 @@ article{
         
     }
     .item{
-
         margin: 10px;
-        width: 250px;
-        height: 100px;
+        width: 45%;
+        height: 190px;
     }
 }
 
 @media (max-width: 600px) {
     .item{
         margin: 5px;
-        width: 200px;
-        height: 120px;
+        width: 60%;
+        height: 150px;
     }
 }
