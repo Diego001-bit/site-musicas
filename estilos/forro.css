@@ -15,7 +15,10 @@ article{
 }
 
 #quadro{
-    background-color: rgba(0, 0, 255, 0.171);
+    background-color: tomato;
+    padding: 20px 15px 10px 0px;
+    border-radius: 3px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.445);
     justify-content: space-around;
     align-items: center;
     display: flex;
@@ -29,6 +32,9 @@ article{
     width: 40vw;
     height: 20vw;
 }
+.item:hover{
+    box-shadow: 2px 3px 10px rgb(71, 1, 50);
+}
 @media (max-width:700px){
     article{
         padding: 10px;
@@ -36,16 +42,16 @@ article{
         margin: auto;
     }
     #quadro{
-        background-color: rgba(0, 0, 255, 0.171);
         justify-content: space-around;
         align-items: center;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         
+        
     }
     .item{
-        background-color: rgba(38, 0, 255, 0.452);
+
         margin: 10px;
         width: 250px;
         height: 100px;
@@ -54,7 +60,6 @@ article{
 
 @media (max-width: 600px) {
     .item{
-        background-color: rgba(255, 255, 0, 0.452);
         margin: 5px;
         width: 200px;
         height: 120px;

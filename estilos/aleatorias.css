@@ -16,7 +16,6 @@ article{
     margin: auto;
     max-width: 1000px;
     min-width: 300px;
-    height: 100v;
     background-color: rgba(160, 2, 2, 0.253);
 }
 body{
@@ -24,8 +23,7 @@ body{
     background-repeat: no-repeat;
     background-position: center bottom;
     background-size: cover;
-
-
+    height: 100%;
 }
 
 #container{
@@ -47,6 +45,7 @@ body{
         background-repeat: no-repeat;
         background-position: center center;
         background-size: cover;
+        height: 100vh;
 
     }
     #container{
@@ -54,7 +53,6 @@ body{
         align-items: center;
         flex-wrap: wrap;
         flex-direction: row;
-        
     }
 
     .itens{
@@ -64,6 +62,14 @@ body{
         
     }
 @media (max-width:710px) {
+
+    body{
+        background-image: url('../imagens/mar.jpg');
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        height: 100%;
+    }
     #container{
         display: flex;
         flex-wrap: wrap;

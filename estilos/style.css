@@ -32,6 +32,10 @@ article{
     justify-content: space-around;
     flex-wrap: wrap;
     flex: 1 1 50px;
+    background-color: tomato;
+    padding: 20px 15px 10px 0px;
+    border-radius: 3px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.445);
 
 }
 .video{
