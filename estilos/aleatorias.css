@@ -27,7 +27,7 @@ body{
     background-repeat: no-repeat;
     background-position: center bottom;
     background-size: cover;
-    height: 100%;
+    background-attachment: fixed;
 }
 
 #container{
@@ -44,14 +44,6 @@ body{
     height: 250px;
 }
 @media (max-width: 1010px) {
-    body{
-        background-image: url('../imagens/mar.jpg');
-        background-repeat: no-repeat;
-        background-position: center center;
-        background-size: cover;
-        height: 100vh;
-
-    }
     #container{
         display: flex;
         align-items: center;
@@ -61,8 +53,8 @@ body{
 
     .itens{
         background-color: blue;
-        width: 40vw;
-        height: 160px;
+        width: 40%;
+        height: 190px;
         
     }
 @media (max-width:710px) {
@@ -71,13 +63,6 @@ body{
         text-align: center;
         font-size: 2em;
         margin: 20px;
-    }
-    body{
-        background-image: url('../imagens/mar.jpg');
-        background-repeat: no-repeat;
-        background-position: center center;
-        background-size: cover;
-        height: 100%;
     }
     #container{
         display: flex;
@@ -89,8 +74,8 @@ body{
     .itens{
         margin-top: 10px;
         background-color: blue;
-        width: 280px;
-        height: 150px;
+        width: 75%;
+        height: 200px;
         
     }
 }
