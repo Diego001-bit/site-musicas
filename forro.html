@@ -1,45 +1,76 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilos/forro.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Forro & Sertanejo</title>
 </head>
+
 <body>
     <header>
         <h1>Forro & Sertanejo</h1>
 
         <section id="paginamenu">
-        <span id="menudogenero"><i  class="fa-solid fa-bars menu"></i></span>
+            <span id="menudogenero"><i class="fa-solid fa-bars menu"></i></span>
             <div id="outrostipos">
                 <h2>OUTROS GENEROS MÚSICAIS</h2>
-                <i class="fa-solid fa-circle-xmark fa-lg sair"></i>
+                <i class="fa-solid fa-circle-xmark fa-lg sair" id="sair"></i>
                 <div id="musicas">
-                    <ul>
-                        <li><a href="phonk.html">Phonk</a></li>
-                        <li><a href="aleatorias.html">aleatorias</a></li>
-                    </ul>
+                        <a href="phonk.html">
+                            <p class="abasmus" id="phonk">Phonk</p>
+                        </a>
+                        <a href="aleatorias.html">
+                            <p class="abasmus" id="aleatorias">Aleatorias</p>
+                        </a>
                 </div>
-                <a href="index.html"><i class="fa-solid fa-house fa-xl" style="color: #450557;"></i></a>
+                <a href="index.html" id="home"><i class="fa-solid fa-house fa-xl" style="color: black;"></i></a>
             </div>
         </section>
     </header>
 
     <article>
         <div id="quadro">
-            <div class="item"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/0YtX3p_9QnE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
-            <div class="item"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/Pr8yfjZRApc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
-            <div class="item"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/HTll8kVYPyw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
-            <div class="item"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/FQhHKtFrYOM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
-            <div class="item"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/UVIunE8U5sQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
-            <div class="item"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/xFjGUCU4Elk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
-            <div class="item"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/xOZmd7dOgc0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
-            <div class="item"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/x97ZBC0jBxo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+            <div class="item"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/0YtX3p_9QnE"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe></div>
+            <div class="item"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/Pr8yfjZRApc"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe></div>
+            <div class="item"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/HTll8kVYPyw"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe></div>
+            <div class="item"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/FQhHKtFrYOM"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe></div>
+            <div class="item"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/UVIunE8U5sQ"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe></div>
+            <div class="item"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/xFjGUCU4Elk"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe></div>
+            <div class="item"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/xOZmd7dOgc0"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe></div>
+            <div class="item"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/x97ZBC0jBxo"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe></div>
         </div>
     </article>
-    <script src="menu.js"></script>
+    <script  src="menu.js"></script>
 </body>
+
 </html>

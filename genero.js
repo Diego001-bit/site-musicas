@@ -4,7 +4,6 @@ function clicar(){
 let fm = document.getElementById('formulario')
 let senha = document.getElementById('isenha')
 let musica = document.getElementsByName("musicas")
-let MusicaEscolhida= musica.value
 senha = Number(senha.value)
 if(senha == 23232323){
     for(var i=0;i<musica.length;i++){
