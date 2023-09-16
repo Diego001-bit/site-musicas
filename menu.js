@@ -5,13 +5,13 @@ fechar.addEventListener("click",fechamento)
 function hamburgue(){
     let generos= document.getElementById('outrostipos')
 
-    if(generos.style.display == 'flex'){
-        generos.style.display ='none'
+    if(generos.style.right == '-320px'){
+        generos.style.right ='0px'
     }else{
-        generos.style.display ='flex'
+        generos.style.right ='0px'
     }
 }
 function fechamento(){
     let generos= document.getElementById('outrostipos')
-    generos.style.display ='none'
+    generos.style.right ='-320px'
 }
