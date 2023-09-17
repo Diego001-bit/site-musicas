@@ -1,4 +1,21 @@
 
+let menu = document.getElementById('menudogenero')
+let sair = document.getElementById('sair')
+menu.addEventListener('click',abamenu)
+sair.addEventListener('click',sairei)
+function sairei(){
+    let outros =document.getElementById('outrostipos')
+    outros.style.right='-320px'
+}
+function abamenu(){
+    let outros =document.getElementById('outrostipos')
+    if(outros.right='-320px' ){
+        outros.style.right='0px'
+    }else{
+        sairei()
+    }
+}
+
 
 
 let fundo = document.getElementById('ifundo')
