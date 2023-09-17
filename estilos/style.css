@@ -3,6 +3,7 @@
 *{
     margin: 0%;
     padding: 0%;
+    text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
 }
 body{
@@ -16,10 +17,68 @@ body{
     width: 0px;
     width: 0px;
 }
+#outrostipos{
+    background-color: gray;
+    display: flex;
+    position: fixed;
+    right: 0%;
+    top: 0px;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 320px;
+}
+#aleatorias{
+    background-image: url('../imagens/mar.jpg');
+    background-position: center center;
+    background-size: cover;
+}
+#forro{
+    background-image: url('../imagens/Untitled.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#sair{
+    position: absolute;
+    top: 20px;
+    right: 15px;
+}
+#musicas{
+    height: 45%;
+}
 h1{
     text-align: center;
     font-size: 2em;
     padding: 20px;
+}
+.abasmus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    height: 100px;
+    width: 280px;
+    margin: 20px;
+    background-color: black;
+    color: white;
+    font-size: 1.4em;
+}
+h2{
+   margin-top: 10px;
+}
+#home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 240px;
+    height: 50px;
+    background-color: rgb(1, 155, 1);
+    border-radius: 10px;
 }
 article{
     margin: auto;
@@ -64,6 +123,7 @@ img{
     display: inline;
     text-align: justify;
 }
+
 .fotos{
     margin: auto;
     padding: 100px;

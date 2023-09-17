@@ -1,4 +1,6 @@
 
+
+
 let fundo = document.getElementById('ifundo')
 fundo.addEventListener('mousemove',function(){
     console.log(fundo.value)

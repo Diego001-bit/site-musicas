@@ -20,5 +20,12 @@ if(senha == 23232323){
 }else{
 alert(`senha ${senha} esta errada`)
 }
-
+}
+function iida(){
+    let iano = document.getElementById('iano')
+    let atual = new Date().getFullYear()
+    let anos = Number(iano.value) 
+    let resultado = document.getElementById('resultado')
+    let ano = Number(atual) - anos
+    resultado.innerHTML = `${ano}`
 }

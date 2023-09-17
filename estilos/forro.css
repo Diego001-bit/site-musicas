@@ -20,11 +20,6 @@ header{
     top: 20px;
     font-size: 2em;
 }
-#outrostipos{
-    margin-top: 20px;
-    padding: 10px;
-
-}
 a{
     text-decoration: none;
 }
@@ -63,6 +58,8 @@ p.abasmus:hover{
     right: 6px;
 }
 #outrostipos{
+    margin-top: 20px;
+    padding: 10px;
     display: flex;
     position:fixed;
     right: -320px;
@@ -85,7 +82,7 @@ p.abasmus:hover{
     display:flex;
     align-items: center;
     justify-content: center;
-    width: 300px;
+    width: 280px;
     height: 100px;
     margin: 10px;
     background-color: black;
