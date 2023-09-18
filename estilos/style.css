@@ -78,6 +78,10 @@ h1{
     font-size: 1.4em;
     cursor: pointer;
 }
+.abasmus:hover{
+    transition-duration: 1s;
+    box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.377);
+}
 h2{
    margin-top: 10px;
 }

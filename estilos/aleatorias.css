@@ -57,7 +57,7 @@ h2{
 }
 .abasmus:hover{
     transition-duration: 1s;
-    box-shadow: 0px 0px 14px black;
+    box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.377);
 }
 
 #sair{
